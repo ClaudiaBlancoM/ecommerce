@@ -1,2 +1,4 @@
 class Product < ApplicationRecord
-end
+    # Relationships
+    has_and_belongs_to_many :categories
+  end
